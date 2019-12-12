@@ -18,3 +18,9 @@ Route::get('/', function () {
 Route::get('/kevin', function () {
     return 'Dit is de pagina van Kevin';
 });
+
+Route::get('/producten', 'ProductController@index');
+Route::get('/producten/{id}', 'ProductController@index');
+Route::get('/admin', 'AdminController@list');
+
+Route::get('/producten/{category}/{id?}','ProductController@showProduct');
