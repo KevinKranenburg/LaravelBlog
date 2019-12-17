@@ -11,10 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@showHome');
 
+
+
+
+
+
+
+
+
+
+// dit zijn test routes
 Route::get('/kevin', function () {
     return 'Dit is de pagina van Kevin';
 });
