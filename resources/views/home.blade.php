@@ -6,6 +6,6 @@ Homepage
 
 @section('content')
 <p>
-    LOREM MUTHAFUCKIN IPSUM HELLYEAHHH
+    Hallo
 </p>
 @endsection
