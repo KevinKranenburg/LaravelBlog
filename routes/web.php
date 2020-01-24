@@ -11,18 +11,24 @@
 |
 */
 
-Route::get('/', 'HomeController@showHome');
 
+Route::get('/', function () {
+    return view('home');
+})->name('home');
 
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
 
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
 
-
-
-
-
+Route::post('contact/submit', 'ContactController@submit')->name('contact-form-submit');
 
 
 // dit zijn test routes
+/*
 Route::get('/kevin', function () {
     return 'Dit is de pagina van Kevin';
 });
@@ -32,3 +38,4 @@ Route::get('/producten/{id}', 'ProductController@index');
 Route::get('/admin', 'AdminController@list');
 
 Route::get('/producten/{category}/{id?}','ProductController@showProduct');
+*/
