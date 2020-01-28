@@ -2,6 +2,6 @@
 
 @section('content')
     <h1>Home</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat deleniti, eligendi dolor commodi distinctio illum mollitia delectus dicta et, blanditiis, aliquam iusto ipsam perferendis laboriosam non. Esse, eligendi! Quas, perspiciatis?</p>
+    <p>Op deze Laravel pagina heb ik oefeningen gemaakt en geprobeerd dezo zo goed mogelijk toe te passen in mijn website.</p>
 @endsection
 

@@ -24,6 +24,10 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 
+Route::get('/upload', function () {
+    return view('upload');
+})->name('upload');
+
 Route::post('contact/submit', 'ContactController@submit')->name('contact-form-submit');
 
 
